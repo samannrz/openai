@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chatbot</title>
 </head>
 <body>
     <h1>FEMaLe Chatbot</h1>
     <form method="post">
-        <input type="text" name="user_input" placeholder="Ask something..." required>
+        <!-- Making the input field larger with a textarea -->
+        <textarea name="user_input" placeholder="Ask something..." rows="5" cols="50" required></textarea>
+        <br>
         <button type="submit">Send</button>
     </form>
     <p><strong>Bot:</strong> {{ bot_response }}</p>
