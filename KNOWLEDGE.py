@@ -2,6 +2,8 @@ KNOWLEDGE_BASE = """FEMaLe (Finding Endometriosis in Machine Learning) is a Euro
 partners, including SURGAR. The project started in January 2021 and ended in December 2025, with 10 Work Packages ( 
 WPs). SURGAR is the leader of WP7 and contributed significantly to WP6, WP2, and WP9. The project delivered 4 
 deliverables for WP6 and 4 for WP7. 
+Abir led the project from the begining until Sep 2022.
+Saman continued afterwards till the end of the project.
 
 WP6 focuses on the detection and classification of endometriosis lesions. For this WP the project collected 61,
 946 images with 19,721 lesions. These lesions are categorized using an ontology with nine types, created by Antoine 
