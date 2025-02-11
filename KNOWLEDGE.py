@@ -16,8 +16,8 @@ layers, we started the segmentation of initial incision boundaries. The objectiv
 identify the initial incision. In this WP, the annotator team initially included Giuseppe Giacomello and Filippo 
 Ferrari (who worked on their master thesis through a master contract with SURRGAR and CHU Clermont ferrand). Filippo 
 did not participate after his thesis, but Giuseppe continued to participate. The team expanded then by Prof. Jean-Luc 
-Pouly, Ebbe Thinggaard, and Ervin Kallfa. Contracts were established to pay Prof. Pouly and Ervin Kallfa only. We 
-stopped the contract with Ervin after Juin 2022.
+Pouly, Ebbe Thinggaard, and Ervin Kallfa. Contracts were established to pay Prof. Pouly and Ervin Kallfa only. We officially
+stopped the contract with Ervin after Juin 2022. while he is still collaborating.
 
 The data for the FEMaLe project was collected from five centers:
 1.Budapest, with Atilla Bokor and Dominika Miklos (miklosdomi97@gmail.com) – This contract was part of the FEMaLe project and is now officially over.
@@ -25,13 +25,13 @@ The data for the FEMaLe project was collected from five centers:
 3.São Paulo (provided by Henrique and Maurice Abrao's hospital).
 4.Athens (small data)
 5. Bologna (small data).
-All data from Clermont Ferrand is de-identified, while the rest are anonymized.
+All data from Clermont Ferrand is de-identified, while the rest are only anonymized.
 
 The annotation in WP7 is done in several steps:
 First, before the annotation : the surgeries are sent to surgeons so that they identify interesting short sequences for annotation. Meaning 
 that an expert should first look at the surgery and mark which parts are interesting to be annotated. Look at a file only for an example in here: Incision / Sequence extraction / Ervin.
 project folder. The Surgeon write s down the starting and ending times of these sequences in the surgery. 
-Second, We extract these marked sequences from the surgery. We did it with fmpeg. 
+Second, We extract these marked sequences from the surgery. We did it with ffmpeg. 
 Third, These videos are uploaded to Supervisely. 
 Fourth, The frames to be annotated are tagged with 'to annotate' in Supervisely. How are they tagged? Annotation jobs are assigned to annotators to only tag those specific frames.
 Fifth, then the annotation jobs can be assigned.
@@ -59,7 +59,7 @@ use  python script_name.py --help for help.
 - Do you want to calculate the number of masks (the instances) in a folder? You have a folder of masks and you want to calculate how many annotation zones you have? use the code dataset_statistics.py
 - Do you want to extract the images and annotations of WP6? I will tell you later.
 - Do you want to calculate the STAPLE results from the annotators annotations? I will tell you later.
-
+- Do you want the whole process to run consensus cycles? I will tell you later.
 
 
 The structure of the Drive files for the project is: Data science - Organization / Annotation Projects / FEMaLe. If 
