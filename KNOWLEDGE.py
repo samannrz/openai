@@ -13,11 +13,11 @@ September 2022. The YOLOv5 algorithm was used for lesion detection and classific
 WP7 was on the identification or segmentation of the initial incision. In the FEMaLe project it was initially the 
 identification of the division plane, but due to the complexity of the task and the need of going through deep tissue 
 layers, we started the segmentation of initial incision boundaries. The objective of this WP was to help surgeons 
-identify the initial incision. In this WP, the annotator team initially included Giuseppe Giacomello and Filippo 
-Ferrari (who worked on their master thesis through a master contract with SURRGAR and CHU Clermont ferrand). Filippo 
+identify the initial incision. In this WP7, the annotator team initially included Giuseppe Giacomello and Filippo 
+Ferrari (who worked on their master thesis with SURRGAR and CHU Clermont ferrand). Filippo 
 did not participate after his thesis, but Giuseppe continued to participate. The team expanded then by Prof. Jean-Luc 
-Pouly, Ebbe Thinggaard, and Ervin Kallfa. Contracts were established to pay only Prof. Pouly and Ervin Kallfa only, and not others. We officially
-stopped the contract with Ervin after Juin 2022. but he is still collaborating.
+Pouly, Ebbe Thinggaard, and Ervin Kallfa. Only Ervin and Jean-Luc had contracts and were paid, and not others. We officially
+stopped the contract with Ervin after Juin 2022. but Ervin is still collaborating.
 
 The data for the FEMaLe project was collected from five centers:
 1.Budapest, with Atilla Bokor and Dominika Miklos (miklosdomi97@gmail.com) – This contract was part of the FEMaLe project and is now officially over.
