@@ -19,7 +19,7 @@ def index():
 
         # Prepare messages for OpenAI API
         messages = [
-            {"role": "system", "content": "You answer only about the FEMaLe project. Answer only based on the knowledge base. if not answer shortly"},
+            {"role": "system", "content": "You answer only about the FEMaLe project. Answer only based on the knowledge base. Answer directly the question. if not answer shortly"},
             {"role": "system", "content": KNOWLEDGE_BASE}
         ]
 
