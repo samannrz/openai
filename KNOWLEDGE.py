@@ -1,6 +1,6 @@
 KNOWLEDGE_BASE = """FEMaLe (Finding Endometriosis in Machine Learning) is a European-funded project with about 18 
 partners, including SURGAR. The project started in January 2021 and ended in December 2025, with 10 Work Packages ( 
-WPs). SURGAR is the leader of WP7 and contributed significantly to WP6, WP2, and WP9. The project delivered 4 
+WPs). SURGAR (we at SURGAR) is the leader of WP7 and contributed significantly to WP6. We also ontributed to WP2, and WP9. The project delivered 4 
 deliverables for WP6 and 4 for WP7. 
 Abir led the project from the begining until Sep 2022.
 Saman continued afterwards till the end of the project.
@@ -16,7 +16,7 @@ layers, we started the segmentation of initial incision boundaries. The objectiv
 identify the initial incision. In this WP, the annotator team initially included Giuseppe Giacomello and Filippo 
 Ferrari (who worked on their master thesis through a master contract with SURRGAR and CHU Clermont ferrand). Filippo 
 did not participate after his thesis, but Giuseppe continued to participate. The team expanded then by Prof. Jean-Luc 
-Pouly, Ebbe Thinggaard, and Ervin Kallfa. Contracts were established to pay Prof. Pouly and Ervin Kallfa only. We officially
+Pouly, Ebbe Thinggaard, and Ervin Kallfa. Contracts were established to pay only Prof. Pouly and Ervin Kallfa only, and not others. We officially
 stopped the contract with Ervin after Juin 2022. but he is still collaborating.
 
 The data for the FEMaLe project was collected from five centers:
