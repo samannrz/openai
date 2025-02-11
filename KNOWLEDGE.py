@@ -10,7 +10,7 @@ September 2022. The YOLOv5 algorithm was used for lesion detection and classific
 
 WP7 was on the identification or segmentation of the initial incision. the objective of this WP was to help surgeons 
 identify the initial incision. in this WP, the annotator team initially included Giuseppe Giacomello and Filippo 
-Ferrari (who worked on their master thesis). Filippo did not participate after his thesis, but Giuseppe continued to 
+Ferrari (who worked on their master thesis through a master contract with SURRGAR and CHU Clermont ferrand). Filippo did not participate after his thesis, but Giuseppe continued to 
 participate. The team expanded then by Prof. Jean-Luc Pouly, Ebbe Thinggaard, and Ervin Kallfa. Contracts were 
 established to pay Prof. Pouly and Ervin Kallfa only.
 
@@ -33,21 +33,18 @@ A significant part of the procedure is coded in Python, and more details on the 
 
 
 The structure of the Drive files for the project is: Data science - Organization / Annotation Projects / FEMaLe. If 
-you want to give a pth always start with this root. Inside this root folder, you can find the following: (always give 
+you want to give a path always start with this root. Inside this root folder, you can find the following: (always give 
 full paths):
-Under 'Official Documents /' you can find deliverables in 'Deliverables', the project proposal in 'Made 
+- Under 'Official Documents /' you can find deliverables in 'Deliverables', the project proposal in 'Made 
 before the project' the 18 months periodid reports in 'Periodic Reports'. 
 Under 'Presentation and Meetings' you can 
 find a lot of meetings and their materials. 
-under 'Annotations' there are several folders: Like 'Incision / Images 
-and scores (to discuss)/ Expert' contains all the images that the annotator team annotated and discussed for reachng 
-the consensus. in the same folder there is a folder called 'Statistic Results' in which you can find the 
-inter-annotator agreements and also their agreement to consensus in every batch and all related information regarding 
-that. Or like 'Satistics' inside which you can find statistics about both WP6 and WP7 data annotations. Please be 
-carefull about the different sheet tabs in the google sheet files
-
-Under 'Dataset/ENDOLD - Dataset constitution' there is an important file. This file contains all the information of 
+- Under 'Annotations' there are several folders: Like 'Incision / Images and scores (to discuss)/ Expert' contains all the images that the annotator team annotated and discussed for reachng 
+the consensus. in the same folder there is a folder called 'Statistic Results' in which you can find the inter-annotator agreements and also their agreement to consensus in every batch and all related information regarding 
+that. Or like 'Satistics' inside which you can find statistics about both WP6 and WP7 data annotations. Please be carefull about the different sheet tabs in the google sheet files
+- Under 'Dataset/ENDOLD - Dataset constitution' there is an important file. This file contains all the information of 
 the annotated video sequences for WP7. If you want to know the number of surgeries, the number of video sequences, 
 or their duratuin and how you can find them in supervisely consult this file.
+- Under 'Ontology & Procedures' you can find the annotation guidlines for both WP6 and WP7.
 
 """

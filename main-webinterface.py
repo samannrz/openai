@@ -29,8 +29,8 @@ def index():
     if request.method == "POST":
         user_input = request.form["user_input"]
         bot_response = chatbot_response(user_input)
-        return render_template("index.html", bot_response=bot_response)
-    return render_template("index.html", bot_response="")
+        return render_template("index_simple.html", bot_response=bot_response)
+    return render_template("index_simple.html", bot_response="")
 
 if __name__ == "__main__":
     app.run(debug=True)

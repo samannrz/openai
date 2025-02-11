@@ -4,15 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chatbot</title>
+    <style>
+        /* Style for user messages */
+        .user-message {
+            font-style: italic; /* Italic text */
+            color: #666;      /* Gray color */
+        }
+
+        /* Style for bot messages */
+        .bot-message {
+            color: #000;      /* Black color (default) */
+        }
+    </style>
 </head>
 <body>
     <h1>FEMaLe Chatbot</h1>
     <form method="post">
-        <!-- Making the input field larger with a textarea -->
         <textarea name="user_input" placeholder="Ask something..." rows="5" cols="50" required></textarea>
         <br>
         <button type="submit">Send</button>
     </form>
-    <p><strong>Bot:</strong> {{ bot_response }}</p>
+
+    <!-- Display the chat history -->
+    <div id="chat-history">
+        {% if chat_history %}
+            {% for message in chat_history %}
+                {% if message.role == "user" %}
+                    <p class="user-message"><strong>YOU:</strong> {{ message.content }}</p>
+                {% elif message.role == "assistant" %}
+                    <p class="bot-message"><strong>Bot:</strong> {{ message.content }}</p>
+                {% endif %}
+            {% endfor %}
+        {% else %}
+            <p>No chat history yet.</p>
+        {% endif %}
+    </div>
 </body>
 </html>
