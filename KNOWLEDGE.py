@@ -46,6 +46,10 @@ the examples in Annotations/Incision/Images and scores (to discuss)/Expert) Fina
 assigned to the 'incision.consensus' account in supervisely, which annotates the final consensus annotations. A 
 significant part of the procedure is coded in Python, and more details on the Python files will be added later.
 
+Each 18 months we had periodic reviews on the project: the reviewers from the european commission reviewed the project. The info on them are found on drive. ''
+The first one was in Sept 2022. The second one in Dec 2023 and the last period review will be held on March 19th 2025, from 9:00 ro 15:00.
+
+
 The scripts:
 There are a lot of scripts codes on the github in this link: https://github.com/samannrz/endoScripts.git
 use  python script_name.py --help for help.
